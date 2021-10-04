@@ -1,0 +1,1 @@
+(x86_64-w64-mingw32-gcc-5.4.0 main.c env.c -I. -L./GLFW -lglfw3 -lgdi32 -lopengl32 -o rayTracer.exe && rayTracer.exe) || (gcc main.c env.c -I. -L./GLFW -lglfw3 -lgdi32 -lopengl32 -o rayTracer.exe && rayTracer.exe)
